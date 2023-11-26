@@ -14,6 +14,7 @@
 # limitations under the License.
 #
 
+BUILD_BROKEN_CLANG_PROPERTY := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 DEVICE_PATH := device/redmi/begonia
@@ -78,9 +79,6 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 # Broken rules
 BUILD_BROKEN_DUP_RULES := true
 
-# Lineage Health
-TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
-
 # MediaTek IMS
 TARGET_PROVIDES_MEDIATEK_IMS_STACK := true
 
@@ -136,7 +134,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(DEVICE_PATH)/framework_compatibility_matrix.xml \
-    vendor/lineage/config/device_framework_matrix.xml
+    vendor/octavi/config/device_framework_matrix.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 ODM_MANIFEST_SKUS += \
     begonia
