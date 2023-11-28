@@ -38,7 +38,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
 PRODUCT_NAME := octavi_begonia
-PRODUCT_BRAND := Redmi
+PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
